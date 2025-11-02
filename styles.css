@@ -1,6 +1,9 @@
-body {
+.labels-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .label-card {
@@ -13,7 +16,10 @@ body {
     margin: 3px;
 }
 
-/* #columns {
-    width: 500px;
-    display: flexbox;
-} */
+p {
+    margin: 5px 0 0 30px;
+}
+
+.dear {
+    margin: 20px 0 0 30px;
+}
